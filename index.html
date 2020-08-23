@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="ispis">
+        <p>Dostupan budzet:</p>
+        <p id="ukupno"></p>
+        <p id="ispisPrihodi"></p>
+        <p id="ispisRashodi"></p>
+    </div>
+    <div id="form">
+        <form id="forma">
+            <select name="select" class="select" id="select">
+            </select>
+            <input type="text" class="inputOpis" name="inputOpis" id="inputOpis" placeholder="Opis transakcije">
+            <input type="text" class="inputIznos" name="inputIznos" id="inputIznos" placeholder="Iznos transakcije">
+            <label><span> </span><input type="submit" value="Potvrdi" id="potvrdi" /></label>
+        </form>
+    </div>
+    <div id="liste">
+        <ul id='listaPrihodi'>
+            <li><h1>PRIHODI</h1></li>
+        </ul>
+        <ul id="listaRashodi">
+            <li><h1>RASHODI</h1></li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
